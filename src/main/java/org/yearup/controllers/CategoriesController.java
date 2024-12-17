@@ -1,6 +1,8 @@
 package org.yearup.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.yearup.data.CategoryDao;
 import org.yearup.data.ProductDao;
@@ -67,10 +69,17 @@ public class CategoriesController
 
     // add annotation to call this method for a POST action
     // add annotation to ensure that only an ADMIN can call this function
+    @PostMapping()
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @RequestMapping(path = "/categories", method = RequestMethod.POST)
+    @ResponseStatus(HttpStatus.CREATED)
     public Category addCategory(@RequestBody Category category)
     {
         // insert the category
-        return null;
+        System.out.println("Incoming category: " + category);
+        Category category1 = categoryDao.create(category);
+        System.out.println("Returned category: " + category1);
+        return  category1;
     }
 
     // add annotation to call this method for a PUT (update) action - the url path must include the categoryId
