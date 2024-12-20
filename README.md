@@ -6,10 +6,15 @@ The **EasyShop** project is a dynamic e-commerce platform built using Spring Boo
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a **User**, I want to filter products by category, price range, and color, so I can find products that meet my specific preferences and needs.
+- As an **Admin**, I want to add new products to the inventory to expand the variety of items available to customers.
+- As an **Admin**, I want to update existing product information, such as price or description, so that the product catalog reflects the most accurate data.
+- As an **Admin**, I want to be able to retrieve a list of all categories, so I can see the entire catalog structure at a glance.
+- As an **Admin**, I want to fetch the details of a specific category using its ID, so I can review and make updates to the category’s attributes.
+- As an **Admin**, I want to be able to add new categories to the system so that I can organize products into more relevant classifications.
+- As an **Admin**, I want the ability to edit existing categories, so I can modify their names, descriptions, or other important details.
+- As an **Admin**, I want to remove outdated or unnecessary categories from the system so that the catalog remains organized and up-to-date.
+- As a **User**, I want to view detailed product information, so I can make informed decisions before making a purchase.
 
 ## Setup
 
