@@ -1,10 +1,8 @@
-# Project Title
+# EasyShop Project
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
-
-![Class Diagram](path/to/your/class_diagram.png)
+The **EasyShop** project is a dynamic e-commerce platform built using Spring Boot for the backend and MySQL for the database. It provides users with an intuitive online shopping experience, allowing them to register, browse products across various categories, and filter items based on specific preferences such as price and color. Admins have full control over managing the product catalog and categories, including the ability to add, update, or remove items. This project aims to create a robust backend infrastructure, enabling smooth functionality and offering a seamless experience for both customers and administrators.
 
 ## User Stories
 
