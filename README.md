@@ -37,9 +37,10 @@ Follow these instructions to set up and run the project locally using IntelliJ I
 
 
 ## Technologies Used
-
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- **Java**: Version 11 or higher.
+- **Spring Boot**: Framework for developing the backend REST API.
+- **MySQL**: Relational database for storing product and category information.
+- **Maven**: For managing project dependencies and building the project.
 
 ## Demo
 
@@ -58,19 +59,17 @@ Some potential areas for future development include:
 
 ## Resources
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
+Here are some helpful resources that were used during the project development:
 
 - [Java Programming Tutorial](https://www.example.com)
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 - [Effective Java](https://www.example.com)
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- **Mehmet Uzun** - Project creator and developer.
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
+- Special thanks to **Raymond Maroun** for his continuous support and guidance throughout the development process. 
 - A special thanks to all teammates for their dedication and teamwork.
