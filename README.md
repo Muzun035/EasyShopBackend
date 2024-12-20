@@ -49,10 +49,12 @@ Include screenshots or GIFs that show your application in action. Use tools like
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+Some potential areas for future development include:
+- **Payment Integration**: Implementing secure payment gateways to facilitate online transactions.
+- **Order Tracking**: Enabling users to track their orders from placement to delivery.
+- **Advanced Search Filters**: Enhancing product search capabilities with additional filters like ratings, brands, and more.
+- **Security Upgrades**: Integrating authentication and authorization to manage user access and protect sensitive data.
+- **Mobile Compatibility**: Developing a mobile-friendly version of the platform or providing a dedicated mobile app.
 
 ## Resources
 
