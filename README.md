@@ -44,9 +44,14 @@ Follow these instructions to set up and run the project locally using IntelliJ I
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
+Below are a few visual demos showcasing the application:
 
-![Application Screenshot](path/to/your/screenshot.png)
+![postman.png](postman.png)
+*Example of testing API endpoints with Postman.*
+
+![website.png](website.png)
+*The frontend displaying products on the website.*
+
 
 ## Future Work
 
